@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Currículo - Samanda Alencar Pedrosa</title>
+  <title>Currículo – Samanda Alencar Pedrosa</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -16,17 +17,34 @@
     header {
       background: #2c3e50;
       color: #fff;
-      padding: 20px;
+      padding: 30px 20px;
       text-align: center;
     }
 
     header h1 {
       margin: 0;
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
 
     header p {
-      margin: 5px 0;
+      margin: 8px 0;
+      font-size: 1rem;
+    }
+
+    .social-links {
+      margin-top: 15px;
+    }
+
+    .social-links a {
+      color: #fff;
+      margin: 0 10px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #1abc9c;
     }
 
     main {
@@ -63,6 +81,7 @@
       margin-top: 30px;
       font-size: 0.9rem;
       color: #666;
+      padding: 15px;
     }
   </style>
 </head>
@@ -72,6 +91,21 @@
     <p>Brasileira, Solteira | 28 anos</p>
     <p>📍 Fortaleza/CE</p>
     <p>📧 <a href="mailto:samandaalencar1@gmail.com" style="color: #fff;">samandaalencar1@gmail.com</a> | 📱 (85) 98825-0423</p>
+
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/samanda-alencar-57130a159" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/Samandasz" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.instagram.com/szsamsz" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/Sam0497" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </div>
   </header>
 
   <main>
@@ -119,14 +153,14 @@
       <h2>📚 Cursos Complementares</h2>
       <ul>
         <li>Excel Avançado – CAGECE – 30h (2017)</li>
-        <li>Auxiliar Administrativo – CAGECE – 32h (2017)</li>
-        <li>Redação Oficial e Comercial – CAGECE – 40h (2017)</li>
+        <li>Auxiliar Administrativo – CAGECE – 32 h (2017)</li>
+        <li>Redação Oficial e Comercial – CAGECE – 40 h (2017)</li>
       </ul>
     </section>
   </main>
 
   <div class="footer">
-    <p>© 2025 - Currículo de Samanda Alencar Pedrosa</p>
+    <p>© 2025 – Currículo de Samanda Alencar Pedrosa</p>
   </div>
 </body>
 </html>
